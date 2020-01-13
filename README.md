@@ -24,7 +24,7 @@ Average of 3 runs per test. Input size of 2^24:
 | 8 Threads | 6.93s  |    391% |
     
     
-In comparison, the Rossetta code version of FFT can't handle this input due to using recursivity, and on the largest input I could find, this implementation is about 346% faster on 4 threads.
+In comparison, the Rossetta code version of FFT can't handle this input due to it's use of recursivity.On the largest input I could find, this implementation is about 346% faster using just 4 threads.
 
 ## Usage
   Compile with `gcc` and `-lm -lpthread` flags.
