@@ -8,7 +8,7 @@ A multithreaded implementation of the fast Fourier transform, written in C, usin
   
 ## Project Description
   The program aims to calculate the fast fourier transform for a given input as fast as possible. The implementation starts from the
-iterative version of the Fast Fourier Transform, where is loop is split on threads at different times in the execution. This "sweet-spot" approach stops bottle-necks from many processor cores or low input values.
+iterative version of the Fast Fourier Transform, where the loops are split on threads at different times in the execution. This "sweet-spot" approach prevents bottle-necks from many processor cores or low input values.
   
   It scales quite well on any number of threads, not just powers of 2, and can handle really big inputs since recursion isn't used at all.
 
