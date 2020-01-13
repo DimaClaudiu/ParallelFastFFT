@@ -17,7 +17,7 @@ Average of 3 runs per test. Input size of 2^24:
 
 | Threads       | Time (s)      | CPU Usage |
 | ------------- |:-------------:| -----:|
-| 1 Thread      | 22.83s | 99%
+| 1 Thread      | 14.83s | 99%
 | 2 Threads      | 9.51s      |   161% |
 | 3 Threads | 8.11s  |    200% |
 | 4 Threads | 7.33s  |    244% |
